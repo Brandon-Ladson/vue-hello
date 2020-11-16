@@ -3,3 +3,55 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: sans-serif;
+}
+
+img{
+  width: 500px;
+  height: auto;
+  border-radius: 20px;
+  border: 5px solid #fff;
+}
+
+/* regole container principale */
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  padding-top: 125px;
+  background-image: url("https://cutewallpaper.org/21/4k-woods-wallpaper/Download-wallpaper-3840x2400-wood-moss-broken-4k-ultra-hd-.jpg");
+  background-size: cover;
+}
+
+.container h1{
+  color: #fff;
+}
+
+/* regole bottone */
+.container button{
+  margin: 10px 0;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: solid #000;
+}
+
+.container button:hover{
+  cursor: pointer;
+  background-color: #000;
+  border: solid #fff;
+  color: #fff;
+}
+
+/* regole invisisbile */
+.invisibile{
+  display: none;
+}
+
+/* regole visibile */
+.visibile{
+  display: block;
+}

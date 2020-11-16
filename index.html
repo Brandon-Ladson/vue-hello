@@ -8,8 +8,24 @@
   </head>
   <body>
 
+    <!-- container principale -->
+    <div class="container">
 
+      <!-- contenitore che usa Vue -->
+      <div id="root">
 
+        <!-- titolo -->
+        <h1>{{message}}</h1>
+
+        <!-- bottone per vedere immagine -->
+        <button @click="mostra">CLICCA PER IMMAGINE</button>
+
+        <!-- immagine -->
+        <img :src="immagine" :class="myClass">
+
+      </div>
+
+    </div>
 
     <!-- javascript -->
     <script type="text/javascript" src="js/script.js">
